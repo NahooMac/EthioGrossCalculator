@@ -1,4 +1,4 @@
-::-webkit-scrollbar-button{
+8::-webkit-scrollbar-button{
     background-color: transparent;
     width: 15px;
     border-radius: 25px;
@@ -52,4 +52,25 @@ body{
 }
 .card input:hover{
     width: 380px;
+}
+@media (max-width:500px) 
+{ .card { text-align: center;
+ justify-content: center; 
+padding: 10px;
+ border: 2px solid rgb(85, 84, 84); 
+border-radius: 15px; 
+height: 550px;
+ width: 550px; 
+font-size: 20px; 
+font-family: Arial, Helvetica, sans-serif;
+ font-weight: 10px; 
+background-color: rgb(236, 242, 247);
+ color: rgb(10, 46, 70); 
+box-shadow: 8px 9px 8px 6px rgb(73, 72, 72);
+  line-height: 70px;
+ display: inline-block; 
+transition: all .5s ease-in-out; 
+overflow: hidden; 
+ 
+ }
 }
